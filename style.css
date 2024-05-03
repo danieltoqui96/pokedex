@@ -166,6 +166,7 @@ body {
       width: 30px;
       padding: 0;
       overflow: hidden;
+      -webkit-tap-highlight-color: transparent;
 
       & img {
         height: 100%;
