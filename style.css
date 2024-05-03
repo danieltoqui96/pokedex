@@ -24,6 +24,12 @@ body {
   );
   background-size: 180% 180%;
   animation: gradient 6s ease infinite reverse;
+
+  @media (width <= 600px) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 
 @keyframes gradient {
@@ -64,6 +70,8 @@ body {
   @media (width <= 600px) {
     height: 92vh;
     width: 96vw;
+
+    margin-top: 4px;
   }
 }
 
