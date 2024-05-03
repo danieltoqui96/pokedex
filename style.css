@@ -170,6 +170,10 @@ body {
         height: 100%;
         width: 100%;
       }
+
+      &:hover {
+        border: 1px solid rgb(255 255 255 / 100%);
+      }
     }
     & span,
     btn-name {
