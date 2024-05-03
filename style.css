@@ -1,0 +1,702 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-size: 10px;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(61 245 167) 11.2%,
+    rgb(9 111 224) 91.1%
+  );
+  background-size: 180% 180%;
+  animation: gradient 6s ease infinite reverse;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.pokedex {
+  background-color: hsla(200deg 80% 20% / 75%);
+  border: 1px solid rgb(255 255 255 / 40%);
+  box-shadow: 0 4px 10px 2px rgb(0 0 0);
+  border-radius: 15px;
+  height: 90vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  & span {
+    color: hsl(200deg 50% 80);
+  }
+
+  @media (width <= 1200px) {
+    width: 90vw;
+  }
+
+  @media (width <= 960px) {
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto;
+  }
+
+  @media (width <= 600px) {
+    height: 96vh;
+    width: 96vw;
+  }
+}
+
+/* Sección de busqueda */
+.sidebar {
+  border-right: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 15px 0 0 15px;
+  padding: 16px 8px;
+  gap: 8px;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+
+  @media (width <= 960px) {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(255 255 255 / 20%);
+    grid-template-rows: 1fr;
+    grid-template-columns: auto 1fr;
+    padding: 4px 8px;
+    height: 71px;
+  }
+}
+
+.search-container {
+  background-color: hsla(180deg 80% 5% / 40%);
+  border: 1px solid rgb(255 255 255 / 40%);
+  border-radius: 20px;
+  padding: 4px 8px;
+  height: 30px;
+  align-self: center;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  gap: 6px;
+
+  & img {
+    height: 16px;
+  }
+
+  & input {
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+  }
+
+  &:hover {
+    border: 1px solid #fff;
+  }
+
+  @media (width <= 600px) {
+    & input {
+      width: 100px;
+    }
+  }
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+  & button {
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid rgb(255 255 255 / 20%);
+    padding: 0 8px;
+    height: 36px;
+    color: inherit;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    transition: 0.1s;
+
+    &:hover {
+      border-bottom: 1px solid rgb(255 255 255 / 100%);
+      background-color: hsla(180deg 80% 5% / 40%);
+    }
+
+    & img {
+      height: 28px;
+      width: 28px;
+    }
+  }
+
+  @media (width <= 960px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2px;
+
+    & button {
+      border-radius: 50%;
+      border: 1px solid rgb(255 255 255 / 20%);
+      height: 30px;
+      width: 30px;
+      padding: 0;
+
+      & img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    & span,
+    btn-name {
+      display: none;
+    }
+  }
+}
+
+/* Sección principal */
+.sidemain {
+  border-radius: 0 15px 15px 0;
+  padding: 16px 8px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 8px;
+
+  @media (width <= 600px) {
+    padding: 8px 2px;
+    gap: 4px;
+  }
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  align-items: center;
+  gap: 20px;
+
+  & span {
+    font-size: 2rem;
+  }
+
+  & h1 {
+    font-size: 2.6rem;
+  }
+
+  @media (width <= 600px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px 8px;
+
+    & span {
+      font-size: 1.6rem;
+    }
+    & h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.forms-btns {
+  display: flex;
+  gap: 4px;
+
+  & button {
+    flex-shrink: 0;
+    background-color: inherit;
+    border: 1px solid rgb(255 255 255 / 40%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.1s;
+    overflow: hidden;
+
+    & img {
+      height: 100%;
+      width: 100%;
+    }
+
+    &:first-child {
+      margin-left: auto;
+    }
+
+    &:hover {
+      background-color: hsla(180deg 80% 5% / 40%);
+      border: 1px solid rgb(255 255 255 / 100%);
+    }
+
+    &.active {
+      background-color: hsla(180deg 80% 5% / 40%);
+      border: 1px solid rgb(255 255 255 / 100%);
+    }
+  }
+
+  @media (width <= 600px) {
+    & button {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.main-details {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-areas:
+    "a b c"
+    "e d d"
+    "f f g"
+    "h h j"
+    "i i i";
+  gap: 4px;
+
+  padding: 4px;
+
+  @media (width <= 1150px) {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "a b"
+      "e d"
+      "f f"
+      "c g"
+      "h h"
+      "j j"
+      "i i";
+  }
+
+  @media (width <= 620px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "d"
+      "f"
+      "h"
+      "e"
+      "g"
+      "c"
+      "j"
+      "i";
+  }
+}
+
+.sprite,
+.general-info,
+.training,
+.abilities,
+.breeding,
+.stats,
+.damage-received,
+.evolution,
+.sex-difference,
+.forms {
+  border: 1px solid rgb(255 255 255 / 40%);
+  border-radius: 6px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+
+  & h2 {
+    font-size: 1.8rem;
+    padding: 4px;
+  }
+
+  & table {
+    width: 100%;
+  }
+
+  & tbody {
+    background-color: hsla(180deg 80% 5% / 40%);
+    text-align: center;
+  }
+
+  & td {
+    font-size: 1.2rem;
+    border-radius: 2px;
+    padding: 2px 4px;
+    height: 24px;
+    transition: 0.1s;
+
+    > img {
+      height: 18px;
+      width: 18px;
+      vertical-align: middle;
+      margin: 1px;
+    }
+  }
+
+  @media (width <= 620px) {
+    & td {
+      padding: 2px;
+    }
+  }
+}
+
+.sprite {
+  grid-area: a;
+  gap: 2px;
+
+  & td > img {
+    width: 150px;
+    height: 150px;
+
+    filter: drop-shadow(4px 4px 8px #000);
+  }
+
+  & button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    & img {
+      vertical-align: middle;
+      height: 16px;
+      width: 16px;
+      opacity: 0.2;
+    }
+
+    &.active {
+      box-shadow: 0 0 0 1px #fff;
+      & img {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 0 0 1px #fff;
+    }
+  }
+
+  @media (width <= 600px) {
+    & td > img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+.general-info {
+  grid-area: b;
+
+  & td > img {
+    filter: drop-shadow(0px 0px 1px #fff);
+  }
+
+  & td > .pokemon-type {
+    vertical-align: middle;
+  }
+}
+
+.training {
+  grid-area: c;
+}
+
+.abilities {
+  grid-area: d;
+}
+
+.breeding {
+  grid-area: e;
+}
+
+.stats {
+  grid-area: f;
+
+  .barchart {
+    width: 100%;
+    .bar {
+      height: 12px;
+    }
+  }
+}
+
+.damage-received {
+  grid-area: g;
+
+  & td:first-child {
+    width: 25%;
+  }
+}
+
+.evolution {
+  grid-area: h;
+
+  & button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: inherit;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    & header {
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    & figure {
+      display: grid;
+      place-content: center;
+      & img {
+        height: 80px;
+        width: 80px;
+
+        filter: drop-shadow(4px 4px 8px #000);
+      }
+    }
+
+    & footer {
+      font-size: 1.2rem;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      & img {
+        height: 16px;
+        width: 16px;
+        vertical-align: middle;
+        margin: 1px;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 0 0 1px #fff;
+    }
+  }
+
+  @media (width <= 600px) {
+    & button header {
+      flex-direction: column-reverse;
+    }
+
+    & button figure img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.forms {
+  grid-area: i;
+
+  & td {
+    width: 25%;
+  }
+
+  & button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: inherit;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    & header {
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      & img {
+        height: 16px;
+        width: 16px;
+        vertical-align: middle;
+        margin: 1px;
+      }
+    }
+
+    & figure {
+      display: grid;
+      place-content: center;
+      & img {
+        height: 80px;
+        width: 80px;
+
+        filter: drop-shadow(4px 4px 8px #000);
+      }
+    }
+
+    & footer {
+      font-size: 1.2rem;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+
+      & img {
+        height: 16px;
+        width: 16px;
+        vertical-align: middle;
+        margin: 1px;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 0 0 1px #fff;
+    }
+  }
+
+  @media (width <= 600px) {
+    & button header {
+      flex-direction: column;
+      word-wrap: break-word;
+    }
+
+    & button figure img {
+      height: 50px;
+      width: 50px;
+    }
+
+    & button footer {
+      display: flex;
+      flex-direction: column;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.sex-difference {
+  grid-area: j;
+
+  & tr:nth-child(1) img {
+    height: 16px;
+    width: 16px;
+  }
+
+  & tr:nth-child(2) img {
+    height: 80px;
+    width: 80px;
+
+    filter: drop-shadow(4px 4px 8px #000);
+  }
+
+  @media (width <= 600px) {
+    & tr:nth-child(2) img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.scrollable {
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(255 255 255 / 40%);
+    border-radius: 4px;
+  }
+}
+
+.acero {
+  background-color: #60a1b8;
+}
+.agua {
+  background-color: #2980ef;
+}
+.bicho {
+  background-color: #91a119;
+}
+.dragón {
+  background-color: #5061e1;
+}
+.eléctrico {
+  background-color: #fac000;
+}
+.fantasma {
+  background-color: #704170;
+}
+.fuego {
+  background-color: #e62829;
+}
+.hada {
+  background-color: #ef71ef;
+}
+.hielo {
+  background-color: #3fd8ff;
+}
+.lucha {
+  background-color: #ff8000;
+}
+.normal {
+  background-color: #9fa19f;
+}
+.planta {
+  background-color: #3fa129;
+}
+.psíquico {
+  background-color: #ef4179;
+}
+.roca {
+  background-color: #afa981;
+}
+.siniestro {
+  background-color: #50413f;
+}
+.tierra {
+  background-color: #915121;
+}
+.veneno {
+  background-color: #8f41cb;
+}
+.volador {
+  background-color: #81b9ef;
+}
+
+.pokemon-type {
+  padding: 0px 6px;
+  border-radius: 10px;
+  width: 90px;
+  height: 18px;
+
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  font-weight: bold;
+  font-weight: 600;
+
+  & img {
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+  }
+}

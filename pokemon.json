@@ -1,0 +1,2393 @@
+[
+  {
+    "id": "Bulbasaur",
+    "name": "Bulbasaur",
+    "sprites": {
+      "normal": "./img/sprites/0001_00_0000.png",
+      "shiny": "./img/sprites/0001_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0001",
+    "local_numbers": [
+      {
+        "number": "001",
+        "name": "Kanto"
+      },
+      {
+        "number": "226",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "231",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "080",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "068",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "164",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["planta", "veneno"],
+    "category": "Semilla",
+    "height": 0.7,
+    "weight": 6.9,
+    "figure": 8,
+    "color": "Verde",
+    "abilities": {
+      "first": {
+        "name": "Espesura",
+        "info": "Potencia sus movimientos de tipo planta cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Clorofila",
+        "info": "Aumenta su velocidad cuando hace sol."
+      }
+    },
+    "evs": "1 At. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 64,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Planta"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "spAtk": 65,
+      "spDef": 65,
+      "speed": 45
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["fuego","hielo","ps\u00edquico","volador"],
+      "x1": ["acero", "bicho","drag\u00f3n","fantasma","normal","roca","siniestro","tierra",
+      "veneno"],
+      "x05":["agua","el\u00e9ctrico","hada","lucha"],
+      "x025":["planta"],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Bulbasaur",
+          "national_number":"0001",
+          "name": "Bulbasaur",
+          "sprite": "./img/sprites/0001_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Ivysaur",
+          "national_number":"0002",
+          "name": "Ivysaur",
+          "sprite": "./img/sprites/0002_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Venusaur",
+          "national_number":"0003",
+          "name": "Venusaur",
+          "sprite": "./img/sprites/0003_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 32"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [{
+      "id": "Bulbasaur",
+      "name": "Bulbasaur",
+      "sprite": "./img/sprites/0001_00_0000.png",
+      "types":  ["planta", "veneno"],
+      "method": null
+    }],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0001_00_0000.png"],
+      "female_sprite": ["./img/sprites/0001_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Ivysaur",
+    "name": "Ivysaur",
+    "sprites": {
+      "normal": "./img/sprites/0002_00_0000.png",
+      "shiny": "./img/sprites/0002_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0002",
+    "local_numbers": [
+      {
+        "number": "002",
+        "name": "Kanto"
+      },
+      {
+        "number": "227",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "232",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "081",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "069",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "165",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["planta", "veneno"],
+    "category": "Semilla",
+    "height": 1,
+    "weight": 13,
+    "figure": 8,
+    "color": "Verde",
+    "abilities": {
+      "first": {
+        "name": "Espesura",
+        "info": "Potencia sus movimientos de tipo planta cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Clorofila",
+        "info": "Aumenta su velocidad cuando hace sol."
+      }
+    },
+    "evs": "1 At. esp., 1 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 142,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Planta"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "spAtk": 80,
+      "spDef": 80,
+      "speed": 60
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["fuego","hielo","ps\u00edquico","volador"],
+      "x1": ["acero", "bicho","drag\u00f3n","fantasma","normal","roca","siniestro","tierra",
+      "veneno"],
+      "x05":["agua","el\u00e9ctrico","hada","lucha"],
+      "x025":["planta"],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Bulbasaur",
+          "national_number":"0001",
+          "name": "Bulbasaur",
+          "sprite": "./img/sprites/0001_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Ivysaur",
+          "national_number":"0002",
+          "name": "Ivysaur",
+          "sprite": "./img/sprites/0002_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Venusaur",
+          "national_number":"0003",
+          "name": "Venusaur",
+          "sprite": "./img/sprites/0003_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 32"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [{
+      "id": "Bulbasaur",
+      "name": "Bulbasaur",
+      "sprite": "./img/sprites/0002_00_0000.png",
+      "types":  ["planta", "veneno"],
+      "method": null
+    }],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0002_00_0000.png"],
+      "female_sprite": ["./img/sprites/0002_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Venusaur",
+    "name": "Venusaur",
+    "sprites": {
+      "normal": "./img/sprites/0003_00_0000.png",
+      "shiny": "./img/sprites/0003_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0003",
+    "local_numbers": [
+      {
+        "number": "003",
+        "name": "Kanto"
+      },
+      {
+        "number": "228",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "233",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "082",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "070",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "166",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["planta", "veneno"],
+    "category": "Llama",
+    "height": 2,
+    "weight": 100,
+    "figure": 8,
+    "color": "Verde",
+    "abilities": {
+      "first": {
+        "name": "Espesura",
+        "info": "Potencia sus movimientos de tipo planta cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Clorofila",
+        "info": "Aumenta su velocidad cuando hace sol."
+      }
+    },
+    "evs": "2 At. esp., 1 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 236,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Planta"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 80
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["fuego","hielo","ps\u00edquico","volador"],
+      "x1": ["acero", "bicho","drag\u00f3n","fantasma","normal","roca","siniestro","tierra",
+      "veneno"],
+      "x05":["agua","el\u00e9ctrico","hada","lucha"],
+      "x025":["planta"],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Bulbasaur",
+          "national_number":"0001",
+          "name": "Bulbasaur",
+          "sprite": "./img/sprites/0001_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Ivysaur",
+          "national_number":"0002",
+          "name": "Ivysaur",
+          "sprite": "./img/sprites/0002_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Venusaur",
+          "national_number":"0003",
+          "name": "Venusaur",
+          "sprite": "./img/sprites/0003_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 32"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Venusaur",
+        "name": "Venusaur",
+        "sprite": "./img/sprites/0003_00_0000.png",
+        "types": ["planta", "veneno"],
+        "method": null
+      },
+      {
+        "id": "Mega-Venusaur",
+        "name": "Mega Venusaur",
+        "sprite": "./img/sprites/0003_01_0000.png",
+        "types": ["planta", "veneno"],
+        "method": {
+          "img": "./img/others/venusaurita.png",
+          "info": "Megaevolución  Venusaurita"
+        }
+      },
+      {
+        "id": "Venusaur-Gigamax",
+        "name": "Venusaur Gigamax",
+        "sprite": "./img/sprites/0003_02_0000.png",
+        "types": ["planta", "veneno"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0003_00_0000.png"],
+      "female_sprite": ["./img/sprites/0003_00_1000.png"],
+      "info": "Las hembras tienen un pequeño bulbo o punta en la flor que llevan en el lomo."
+    }
+  },
+  {
+    "id": "Mega-Venusaur",
+    "name": "Mega Venusaur",
+    "sprites": {
+      "normal": "./img/sprites/0003_01_0000.png",
+      "shiny": "./img/sprites/0003_01_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0003",
+    "local_numbers": [
+      {
+        "number": "003",
+        "name": "Kanto"
+      },
+      {
+        "number": "228",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "233",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "082",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "070",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "166",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["planta", "veneno"],
+    "category": "Llama",
+    "height": 2.4,
+    "weight": 155.5,
+    "figure": 8,
+    "color": "Verde",
+    "abilities": {
+      "first": {
+        "name": "Sebo",
+        "info": "Gracias a la gruesa capa de grasa que lo protege, reduce a la mitad el daño que recibe de ataques de tipo fuego o hielo."
+      },
+      "second": null,
+      "hidden": null
+    },
+    "evs": "2 At. esp., 1 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 236,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Planta"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 123,
+      "spAtk": 122,
+      "spDef": 120,
+      "speed": 80
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["fuego","hielo","ps\u00edquico","volador"],
+      "x1": ["acero", "bicho","drag\u00f3n","fantasma","normal","roca","siniestro","tierra",
+      "veneno"],
+      "x05":["agua","el\u00e9ctrico","hada","lucha"],
+      "x025":["planta"],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Bulbasaur",
+          "national_number":"0004",
+          "name": "Bulbasaur",
+          "sprite": "./img/sprites/0001_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Ivysaur",
+          "national_number":"0005",
+          "name": "Ivysaur",
+          "sprite": "./img/sprites/0002_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Venusaur",
+          "national_number":"0006",
+          "name": "Venusaur",
+          "sprite": "./img/sprites/0003_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 32"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Venusaur",
+        "name": "Venusaur",
+        "sprite": "./img/sprites/0003_00_0000.png",
+        "types": ["planta", "veneno"],
+        "method": null
+      },
+      {
+        "id": "Mega-Venusaur",
+        "name": "Mega Venusaur",
+        "sprite": "./img/sprites/0003_01_0000.png",
+        "types": ["planta", "veneno"],
+        "method": {
+          "img": "./img/others/venusaurita.png",
+          "info": "Megaevolución  Venusaurita"
+        }
+      },
+      {
+        "id": "Venusaur-Gigamax",
+        "name": "Venusaur Gigamax",
+        "sprite": "./img/sprites/0003_02_0000.png",
+        "types": ["planta", "veneno"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0003_02_0000.png"],
+      "female_sprite": ["./img/sprites/0003_02_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Venusaur-Gigamax",
+    "name": "Venusaur Gigamax",
+    "sprites": {
+      "normal": "./img/sprites/0003_02_0000.png",
+      "shiny": "./img/sprites/0003_02_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0003",
+    "local_numbers": [
+      {
+        "number": "003",
+        "name": "Kanto"
+      },
+      {
+        "number": "228",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "233",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "082",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "070",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "166",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["planta", "veneno"],
+    "category": "Llama",
+    "height": "Más de 24",
+    "weight": "???",
+    "figure": 8,
+    "color": "Verde",
+    "abilities": {
+      "first": {
+        "name": "Espesura",
+        "info": "Potencia sus movimientos de tipo planta cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Clorofila",
+        "info": "Aumenta su velocidad cuando hace sol."
+      }
+    },
+    "evs": "2 At. esp., 1 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 236,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Planta"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 80
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["fuego","hielo","ps\u00edquico","volador"],
+      "x1": ["acero", "bicho","drag\u00f3n","fantasma","normal","roca","siniestro","tierra",
+      "veneno"],
+      "x05":["agua","el\u00e9ctrico","hada","lucha"],
+      "x025":["planta"],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Bulbasaur",
+          "national_number":"0004",
+          "name": "Bulbasaur",
+          "sprite": "./img/sprites/0001_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Ivysaur",
+          "national_number":"0005",
+          "name": "Ivysaur",
+          "sprite": "./img/sprites/0002_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Venusaur",
+          "national_number":"0006",
+          "name": "Venusaur",
+          "sprite": "./img/sprites/0003_00_0000.png",
+          "types":  ["planta", "veneno"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 32"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Venusaur",
+        "name": "Venusaur",
+        "sprite": "./img/sprites/0003_00_0000.png",
+        "types": ["planta", "veneno"],
+        "method": null
+      },
+      {
+        "id": "Mega-Venusaur",
+        "name": "Mega Venusaur",
+        "sprite": "./img/sprites/0003_01_0000.png",
+        "types": ["planta", "veneno"],
+        "method": {
+          "img": "./img/others/venusaurita.png",
+          "info": "Megaevolución  Venusaurita"
+        }
+      },
+      {
+        "id": "Venusaur-Gigamax",
+        "name": "Venusaur Gigamax",
+        "sprite": "./img/sprites/0003_02_0000.png",
+        "types": ["planta", "veneno"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0003_02_0000.png"],
+      "female_sprite": ["./img/sprites/0003_02_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Charmander",
+    "name": "Charmander",
+    "sprites": {
+      "normal": "./img/sprites/0004_00_0000.png",
+      "shiny": "./img/sprites/0004_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0004",
+    "local_numbers": [
+      {
+        "number": "004",
+        "name": "Kanto"
+      },
+      {
+        "number": "229",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "234",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "083",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "378",
+        "name": "Galar"
+      },
+      {
+        "number": "167",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["fuego"],
+    "category": "Lagartija",
+    "height": 0.6,
+    "weight": 8.5,
+    "figure": 6,
+    "color": "Rojo",
+    "abilities": {
+      "first": {
+        "name": "Mar llamas",
+        "info": "Potencia sus movimientos de tipo fuego cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Poder solar",
+        "info": "Si hace sol, aumenta su ataque especial, pero pierde PS en cada turno."
+      }
+    },
+    "evs": "1 Velocidad",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 62,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Drag\u00f3n"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "spAtk": 60,
+      "spDef": 50,
+      "speed": 65
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["agua", "roca", "tierra"],
+      "x1": [
+        "drag\u00f3n",
+        "el\u00e9ctrico",
+        "fantasma",
+        "lucha",
+        "normal",
+        "ps\u00edquico",
+        "siniestro",
+        "veneno",
+        "volador"
+      ],
+      "x05": ["acero", "bicho", "fuego", "hada", "hielo", "planta"],
+      "x025": [],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Charmander",
+          "national_number":"0004",
+          "name": "Charmander",
+          "sprite": "./img/sprites/0004_00_0000.png",
+          "types": ["fuego"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Charmeleon",
+          "national_number":"0005",
+          "name": "Charmeleon",
+          "sprite": "./img/sprites/0005_00_0000.png",
+          "types": ["fuego"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Charizard",
+          "national_number":"0006",
+          "name": "Charizard",
+          "sprite": "./img/sprites/0006_00_0000.png",
+          "types": ["fuego", "volador"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [{
+      "id": "Charmander",
+      "name": "Charmander",
+      "sprite": "./img/sprites/0004_00_0000.png",
+      "types": ["fuego"],
+      "method": null
+    }],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0004_00_0000.png"],
+      "female_sprite": ["./img/sprites/0004_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Charmeleon",
+    "name": "Charmeleon",
+    "sprites": {
+      "normal": "./img/sprites/0005_00_0000.png",
+      "shiny": "./img/sprites/0005_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0005",
+    "local_numbers": [
+      {
+        "number": "005",
+        "name": "Kanto"
+      },
+      {
+        "number": "230",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "235",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "084",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "379",
+        "name": "Galar"
+      },
+      {
+        "number": "168",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["fuego"],
+    "category": "Llama",
+    "height": 1.1,
+    "weight": 19.0,
+    "figure": 6,
+    "color": "Rojo",
+    "abilities": {
+      "first": {
+        "name": "Mar llamas",
+        "info": "Potencia sus movimientos de tipo fuego cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Poder solar",
+        "info": "Si hace sol, aumenta su ataque especial, pero pierde PS en cada turno."
+      }
+    },
+    "evs": "1 At. esp., 1 Velocidad",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 142,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Drag\u00f3n"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "spAtk": 80,
+      "spDef": 65,
+      "speed": 80
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["agua", "roca", "tierra"],
+      "x1": [
+        "drag\u00f3n",
+        "el\u00e9ctrico",
+        "fantasma",
+        "lucha",
+        "normal",
+        "ps\u00edquico",
+        "siniestro",
+        "veneno",
+        "volador"
+      ],
+      "x05": ["acero", "bicho", "fuego", "hada", "hielo", "planta"],
+      "x025": [],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Charmander",
+          "national_number":"0004",
+          "name": "Charmander",
+          "sprite": "./img/sprites/0004_00_0000.png",
+          "types": ["fuego"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Charmeleon",
+          "national_number":"0005",
+          "name": "Charmeleon",
+          "sprite": "./img/sprites/0005_00_0000.png",
+          "types": ["fuego"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Charizard",
+          "national_number":"0006",
+          "name": "Charizard",
+          "sprite": "./img/sprites/0006_00_0000.png",
+          "types": ["fuego", "volador"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [{
+      "id": "Charmeleon",
+      "name": "Charmeleon",
+      "sprite": "./img/sprites/0005_00_0000.png",
+      "types": ["fuego"],
+      "method": null
+    }],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0005_00_0000.png"],
+      "female_sprite": ["./img/sprites/0005_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Charizard",
+    "name": "Charizard",
+    "sprites": {
+      "normal": "./img/sprites/0006_00_0000.png",
+      "shiny": "./img/sprites/0006_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0006",
+    "local_numbers": [
+      {
+        "number": "006",
+        "name": "Kanto"
+      },
+      {
+        "number": "231",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "236",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "085",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "380",
+        "name": "Galar"
+      },
+      {
+        "number": "169",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["fuego", "volador"],
+    "category": "Llama",
+    "height": 1.7,
+    "weight": 90.5,
+    "figure": 6,
+    "color": "Rojo",
+    "abilities": {
+      "first": {
+        "name": "Mar llamas",
+        "info": "Potencia sus movimientos de tipo fuego cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Poder solar",
+        "info": "Si hace sol, aumenta su ataque especial, pero pierde PS en cada turno."
+      }
+    },
+    "evs": "3 At. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 240,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Drag\u00f3n"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "spAtk": 109,
+      "spDef": 85,
+      "speed": 100
+    },
+    "damage_received": {
+      "x4": ["roca"],
+      "x2": ["agua", "el\u00e9ctrico"],
+      "x1": [
+        "drag\u00f3n",
+        "fantasma",
+        "hielo",
+        "normal",
+        "ps\u00edquico",
+        "siniestro",
+        "veneno",
+        "volador"
+      ],
+      "x05": ["acero", "fuego", "hada", "lucha"],
+      "x025": ["bicho", "planta"],
+      "x0": ["tierra"]
+    },
+    "evolution": [
+      [
+        {
+          "id": "Charmander",
+          "national_number":"0004",
+          "name": "Charmander",
+          "sprite": "./img/sprites/0004_00_0000.png",
+          "types": ["fuego"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Charmeleon",
+          "national_number":"0005",
+          "name": "Charmeleon",
+          "sprite": "./img/sprites/0005_00_0000.png",
+          "types": ["fuego"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Charizard",
+          "national_number":"0006",
+          "name": "Charizard",
+          "sprite": "./img/sprites/0006_00_0000.png",
+          "types": ["fuego", "volador"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Charizard",
+        "name": "Charizard",
+        "sprite": "./img/sprites/0006_00_0000.png",
+        "types": ["fuego", "volador"],
+        "method": null
+      },
+      {
+        "id": "Mega-Charizard-X",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_01_0000.png",
+        "types": ["fuego", "dragón"],
+        "method": {
+          "img": "./img/others/charizardita_x.png",
+          "info": "Megaevolución Charizardita X"
+        }
+      },
+      {
+        "id": "Mega-Charizard-Y",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_02_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/charizardita_y.png",
+          "info": "Megaevolución Charizardita Y"
+        }
+      },
+      {
+        "id": "Charizard-Gigamax",
+        "name": "Charizard Gigamax",
+        "sprite": "./img/sprites/0006_03_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0006_00_0000.png"],
+      "female_sprite": ["./img/sprites/0006_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Mega-Charizard-X",
+    "name": "Mega Charizard X",
+    "sprites": {
+      "normal": "./img/sprites/0006_01_0000.png",
+      "shiny": "./img/sprites/0006_01_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0006",
+    "local_numbers": [
+      {
+        "number": "006",
+        "name": "Kanto"
+      },
+      {
+        "number": "231",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "236",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "085",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "380",
+        "name": "Galar"
+      },
+      {
+        "number": "169",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["fuego", "dragón"],
+    "category": "Llama",
+    "height": 1.7,
+    "weight": 110.5,
+    "figure": 6,
+    "color": "Negro",
+    "abilities": {
+      "first": {
+        "name": "Garra dura",
+        "info": "Aumenta la potencia de los movimientos de contacto."
+      },
+      "second": null,
+      "hidden": null
+    },
+    "evs": "3 At. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 240,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Drag\u00f3n"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "spAtk": 130,
+      "spDef": 85,
+      "speed": 100
+    },
+    "damage_received": {
+      "x4": [],
+      "x2": ["drag\u00f3n", "roca", "tierra"],
+      "x1": [
+        "agua",
+        "fantasma",
+        "hada",
+        "hielo",
+        "lucha",
+        "normal",
+        "ps\u00edquico",
+        "siniestro",
+        "veneno",
+        "volador"
+      ],
+      "x05": ["acero", "bicho", "el\u00e9ctrico"],
+      "x025": ["fuego", "planta"],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Charmander",
+          "national_number":"0004",
+          "name": "Charmander",
+          "sprite": "./img/sprites/0004_00_0000.png",
+          "types": ["fuego"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Charmeleon",
+          "national_number":"0005",
+          "name": "Charmeleon",
+          "sprite": "./img/sprites/0005_00_0000.png",
+          "types": ["fuego"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Charizard",
+          "national_number":"0006",
+          "name": "Charizard",
+          "sprite": "./img/sprites/0006_00_0000.png",
+          "types": ["fuego", "volador"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Charizard",
+        "name": "Charizard",
+        "sprite": "./img/sprites/0006_00_0000.png",
+        "types": ["fuego", "volador"],
+        "method": null
+      },
+      {
+        "id": "Mega-Charizard-X",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_01_0000.png",
+        "types": ["fuego", "dragón"],
+        "method": {
+          "img": "./img/others/charizardita_x.png",
+          "info": "Megaevolución Charizardita X"
+        }
+      },
+      {
+        "id": "Mega-Charizard-Y",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_02_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/charizardita_y.png",
+          "info": "Megaevolución Charizardita Y"
+        }
+      },
+      {
+        "id": "Charizard-Gigamax",
+        "name": "Charizard Gigamax",
+        "sprite": "./img/sprites/0006_03_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0006_01_0000.png"],
+      "female_sprite": ["./img/sprites/0006_01_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Mega-Charizard-Y",
+    "name": "Mega Charizard Y",
+    "sprites": {
+      "normal": "./img/sprites/0006_02_0000.png",
+      "shiny": "./img/sprites/0006_02_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0006",
+    "local_numbers": [
+      {
+        "number": "006",
+        "name": "Kanto"
+      },
+      {
+        "number": "231",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "236",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "085",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "380",
+        "name": "Galar"
+      },
+      {
+        "number": "169",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["fuego", "volador"],
+    "category": "Llama",
+    "height": 1.7,
+    "weight": 100.5,
+    "figure": 6,
+    "color": "Rojo",
+    "abilities": {
+      "first": {
+        "name": "Sequía",
+        "info": "El tiempo pasa a ser soleado al entrar en combate."
+      },
+      "second": null,
+      "hidden": null
+    },
+    "evs": "3 At. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 240,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Drag\u00f3n"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "spAtk": 159,
+      "spDef": 115,
+      "speed": 100
+    },
+    "damage_received": {
+      "x4": ["roca"],
+      "x2": ["agua", "el\u00e9ctrico"],
+      "x1": [
+        "drag\u00f3n",
+        "fantasma",
+        "hielo",
+        "normal",
+        "ps\u00edquico",
+        "siniestro",
+        "veneno",
+        "volador"
+      ],
+      "x05": ["acero", "fuego", "hada", "lucha"],
+      "x025": ["bicho", "planta"],
+      "x0": ["tierra"]
+    },
+    "evolution": [
+      [
+        {
+          "id": "Charmander",
+          "national_number":"0004",
+          "name": "Charmander",
+          "sprite": "./img/sprites/0004_00_0000.png",
+          "types": ["fuego"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Charmeleon",
+          "national_number":"0005",
+          "name": "Charmeleon",
+          "sprite": "./img/sprites/0005_00_0000.png",
+          "types": ["fuego"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Charizard",
+          "national_number":"0006",
+          "name": "Charizard",
+          "sprite": "./img/sprites/0006_00_0000.png",
+          "types": ["fuego", "volador"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Charizard",
+        "name": "Charizard",
+        "sprite": "./img/sprites/0006_00_0000.png",
+        "types": ["fuego", "volador"],
+        "method": null
+      },
+      {
+        "id": "Mega-Charizard-X",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_01_0000.png",
+        "types": ["fuego", "dragón"],
+        "method": {
+          "img": "./img/others/charizardita_x.png",
+          "info": "Megaevolución Charizardita X"
+        }
+      },
+      {
+        "id": "Mega-Charizard-Y",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_02_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/charizardita_y.png",
+          "info": "Megaevolución Charizardita Y"
+        }
+      },
+      {
+        "id": "Charizard-Gigamax",
+        "name": "Charizard Gigamax",
+        "sprite": "./img/sprites/0006_03_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0006_02_0000.png"],
+      "female_sprite": ["./img/sprites/0006_02_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Charizard-Gigamax",
+    "name": "Charizard Gigamax",
+    "sprites": {
+      "normal": "./img/sprites/0006_03_0000.png",
+      "shiny": "./img/sprites/0006_03_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0006",
+    "local_numbers": [
+      {
+        "number": "006",
+        "name": "Kanto"
+      },
+      {
+        "number": "231",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "236",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "085",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "380",
+        "name": "Galar"
+      },
+      {
+        "number": "169",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["fuego", "volador"],
+    "category": "Llama",
+    "height": "Más de 28",
+    "weight": "???",
+    "figure": 6,
+    "color": "Rojo",
+    "abilities": {
+      "first": {
+        "name": "Mar llamas",
+        "info": "Potencia sus movimientos de tipo fuego cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Poder solar",
+        "info": "Si hace sol, aumenta su ataque especial, pero pierde PS en cada turno."
+      }
+    },
+    "evs": "3 At. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 240,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Drag\u00f3n"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "spAtk": 109,
+      "spDef": 85,
+      "speed": 100
+    },
+    "damage_received": {
+      "x4": ["roca"],
+      "x2": ["agua", "el\u00e9ctrico"],
+      "x1": [
+        "drag\u00f3n",
+        "fantasma",
+        "hielo",
+        "normal",
+        "ps\u00edquico",
+        "siniestro",
+        "veneno",
+        "volador"
+      ],
+      "x05": ["acero", "fuego", "hada", "lucha"],
+      "x025": ["bicho", "planta"],
+      "x0": ["tierra"]
+    },
+    "evolution": [
+      [
+        {
+          "id": "Charmander",
+          "national_number":"0004",
+          "name": "Charmander",
+          "sprite": "./img/sprites/0004_00_0000.png",
+          "types": ["fuego"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Charmeleon",
+          "national_number":"0005",
+          "name": "Charmeleon",
+          "sprite": "./img/sprites/0005_00_0000.png",
+          "types": ["fuego"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Charizard",
+          "national_number":"0006",
+          "name": "Charizard",
+          "sprite": "./img/sprites/0006_00_0000.png",
+          "types": ["fuego", "volador"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Charizard",
+        "name": "Charizard",
+        "sprite": "./img/sprites/0006_00_0000.png",
+        "types": ["fuego", "volador"],
+        "method": null
+      },
+      {
+        "id": "Mega-Charizard-X",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_01_0000.png",
+        "types": ["fuego", "dragón"],
+        "method": {
+          "img": "./img/others/charizardita_x.png",
+          "info": "Megaevolución Charizardita X"
+        }
+      },
+      {
+        "id": "Mega-Charizard-Y",
+        "name": "Mega Charizard X",
+        "sprite": "./img/sprites/0006_02_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/charizardita_y.png",
+          "info": "Megaevolución Charizardita Y"
+        }
+      },
+      {
+        "id": "Charizard-Gigamax",
+        "name": "Charizard Gigamax",
+        "sprite": "./img/sprites/0006_03_0000.png",
+        "types": ["fuego", "volador"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0006_03_0000.png"],
+      "female_sprite": ["./img/sprites/0006_03_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Squirtle",
+    "name": "Squirtle",
+    "sprites": {
+      "normal": "./img/sprites/0007_00_0000.png",
+      "shiny": "./img/sprites/0007_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0007",
+    "local_numbers": [
+      {
+        "number": "007",
+        "name": "Kanto"
+      },
+      {
+        "number": "232",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "237",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "086",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "071",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "170",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["agua"],
+    "category": "Tortuguita",
+    "height": 0.5,
+    "weight": 9,
+    "figure": 6,
+    "color": "azul",
+    "abilities": {
+      "first": {
+        "name": "Torrente",
+        "info": "Potencia sus movimientos de tipo agua cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Cura lluvia",
+        "info": "Recupera PS de forma gradual cuando llueve."
+      }
+    },
+    "evs": "1 Defensa",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 63,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Agua 1"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "spAtk": 50,
+      "spDef": 64,
+      "speed": 43
+    },
+    "damage_received": {
+      "x4": [],
+      "x2":["el\u00e9ctrico","planta"],
+      "x1":["bicho","drag\u00f3n","fantasma","hada","lucha", "normal","ps\u00edquico", "roca","siniestro","tierra","veneno", "volador"],
+      "x05":["acero","agua","fuego", "hielo"],
+      "x025":[],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Squirtle",
+          "national_number":"0007",
+          "name": "Squirtle",
+          "sprite": "./img/sprites/0007_00_0000.png",
+          "types":  ["agua"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Wartortle",
+          "national_number":"0008",
+          "name": "Wartortle",
+          "sprite": "./img/sprites/0008_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Blastoise",
+          "national_number":"0009",
+          "name": "Blastoise",
+          "sprite": "./img/sprites/0009_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [{
+      "id": "Squirtle",
+      "name": "Squirtle",
+      "sprite": "./img/sprites/0007_00_0000.png",
+      "types":  ["agua"],
+      "method": null
+    }],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0007_00_0000.png"],
+      "female_sprite": ["./img/sprites/0007_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Wartortle",
+    "name": "Wartortle",
+    "sprites": {
+      "normal": "./img/sprites/0008_00_0000.png",
+      "shiny": "./img/sprites/0008_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0008",
+    "local_numbers": [
+      {
+        "number": "008",
+        "name": "Kanto"
+      },
+      {
+        "number": "233",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "237",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "087",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "072",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "171",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["agua"],
+    "category": "Tortuga",
+    "height": 1,
+    "weight": 22.5,
+    "figure": 6,
+    "color": "Azul",
+    "abilities": {
+      "first": {
+        "name": "Torrente",
+        "info": "Potencia sus movimientos de tipo agua cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Cura lluvia",
+        "info": "Recupera PS de forma gradual cuando llueve."
+      }
+    },
+    "evs": "1 Defensa, 1 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 142,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Agua 1"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "spAtk": 65,
+      "spDef": 80,
+      "speed": 58
+    },
+    "damage_received": {
+      "x4": [],
+      "x2":["el\u00e9ctrico","planta"],
+      "x1":["bicho","drag\u00f3n","fantasma","hada","lucha", "normal","ps\u00edquico", "roca","siniestro","tierra","veneno", "volador"],
+      "x05":["acero","agua","fuego", "hielo"],
+      "x025":[],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Squirtle",
+          "national_number":"0007",
+          "name": "Squirtle",
+          "sprite": "./img/sprites/0007_00_0000.png",
+          "types":  ["agua"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Wartortle",
+          "national_number":"0008",
+          "name": "Wartortle",
+          "sprite": "./img/sprites/0008_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Blastoise",
+          "national_number":"0009",
+          "name": "Blastoise",
+          "sprite": "./img/sprites/0009_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [{
+      "id": "Wartortle",
+      "name": "Wartortle",
+      "sprite": "./img/sprites/0008_00_0000.png",
+      "types":  ["agua"],
+      "method": null
+    }],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0008_00_0000.png"],
+      "female_sprite": ["./img/sprites/0008_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Blastoise",
+    "name": "Blastoise",
+    "sprites": {
+      "normal": "./img/sprites/0009_00_0000.png",
+      "shiny": "./img/sprites/0009_00_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0009",
+    "local_numbers": [
+      {
+        "number": "009",
+        "name": "Kanto"
+      },
+      {
+        "number": "234",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "239",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "088",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "073",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "172",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["agua"],
+    "category": "Armazón",
+    "height": 1.6,
+    "weight": 85.5,
+    "figure": 6,
+    "color": "Azul",
+    "abilities": {
+      "first": {
+        "name": "Torrente",
+        "info": "Potencia sus movimientos de tipo agua cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Cura lluvia",
+        "info": "Recupera PS de forma gradual cuando llueve."
+      }
+    },
+    "evs": "3 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 239,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Agua 1"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "spAtk": 85,
+      "spDef": 105,
+      "speed": 78
+    },
+    "damage_received": {
+      "x4": [],
+      "x2":["el\u00e9ctrico","planta"],
+      "x1":["bicho","drag\u00f3n","fantasma","hada","lucha", "normal","ps\u00edquico", "roca","siniestro","tierra","veneno", "volador"],
+      "x05":["acero","agua","fuego", "hielo"],
+      "x025":[],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Squirtle",
+          "national_number":"0007",
+          "name": "Squirtle",
+          "sprite": "./img/sprites/0007_00_0000.png",
+          "types":  ["agua"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Wartortle",
+          "national_number":"0008",
+          "name": "Wartortle",
+          "sprite": "./img/sprites/0008_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Blastoise",
+          "national_number":"0009",
+          "name": "Blastoise",
+          "sprite": "./img/sprites/0009_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Blastoise",
+        "name": "Blastoise",
+        "sprite": "./img/sprites/0009_00_0000.png",
+        "types": ["agua"],
+        "method": null
+      },
+      {
+        "id": "Mega-Blastoise",
+        "name": "Mega Blastoise",
+        "sprite": "./img/sprites/0009_01_0000.png",
+        "types": ["agua"],
+        "method": {
+          "img": "./img/others/blastoisita.png",
+          "info": "Megaevolución Blastoisita"
+        }
+      },
+      {
+        "id": "Blastoise-Gigamax",
+        "name": "Blastoise Gigamax",
+        "sprite": "./img/sprites/0009_02_0000.png",
+        "types": ["agua"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0009_00_0000.png"],
+      "female_sprite": ["./img/sprites/0009_00_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Mega-Blastoise",
+    "name": "Mega Blastoise",
+    "sprites": {
+      "normal": "./img/sprites/0009_01_0000.png",
+      "shiny": "./img/sprites/0009_01_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0009",
+    "local_numbers": [
+      {
+        "number": "009",
+        "name": "Kanto"
+      },
+      {
+        "number": "234",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "239",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "088",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "073",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "172",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["agua"],
+    "category": "Armazón",
+    "height": 1.6,
+    "weight": 101.1,
+    "figure": 6,
+    "color": "Azul",
+    "abilities": {
+      "first": {
+        "name": "Megadisparador",
+        "info": "Aumenta la potencia de algunos movimientos de pulsos y auras."
+      },
+      "second": null,
+      "hidden": null
+    },
+    "evs": "3 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 239,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Agua 1"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 79,
+      "attack": 103,
+      "defense": 120,
+      "spAtk": 135,
+      "spDef": 115,
+      "speed": 78
+    },
+    "damage_received": {
+      "x4": [],
+      "x2":["el\u00e9ctrico","planta"],
+      "x1":["bicho","drag\u00f3n","fantasma","hada","lucha", "normal","ps\u00edquico", "roca","siniestro","tierra","veneno", "volador"],
+      "x05":["acero","agua","fuego", "hielo"],
+      "x025":[],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Squirtle",
+          "national_number":"0007",
+          "name": "Squirtle",
+          "sprite": "./img/sprites/0007_00_0000.png",
+          "types":  ["agua"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Wartortle",
+          "national_number":"0008",
+          "name": "Wartortle",
+          "sprite": "./img/sprites/0008_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Blastoise",
+          "national_number":"0009",
+          "name": "Blastoise",
+          "sprite": "./img/sprites/0009_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Blastoise",
+        "name": "Blastoise",
+        "sprite": "./img/sprites/0009_00_0000.png",
+        "types": ["agua"],
+        "method": null
+      },
+      {
+        "id": "Mega-Blastoise",
+        "name": "Mega Blastoise",
+        "sprite": "./img/sprites/0009_01_0000.png",
+        "types": ["agua"],
+        "method": {
+          "img": "./img/others/blastoisita.png",
+          "info": "Megaevolución Blastoisita"
+        }
+      },
+      {
+        "id": "Blastoise-Gigamax",
+        "name": "Blastoise Gigamax",
+        "sprite": "./img/sprites/0009_02_0000.png",
+        "types": ["agua"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0009_01_0000.png"],
+      "female_sprite": ["./img/sprites/0009_01_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  },
+  {
+    "id": "Blastoise-Gigamax",
+    "name": "Blastoise Gigamax",
+    "sprites": {
+      "normal": "./img/sprites/0009_02_0000.png",
+      "shiny": "./img/sprites/0009_02_0001.png"
+    },
+    "generation": "Primera",
+    "national_number": "0009",
+    "local_numbers": [
+      {
+        "number": "009",
+        "name": "Kanto"
+      },
+      {
+        "number": "234",
+        "name": "Johto O/P/C"
+      },
+      {
+        "number": "239",
+        "name": "Johto HG/SS"
+      },
+      {
+        "number": "088",
+        "name": "Kalos Centro"
+      },
+      {
+        "number": "073",
+        "name": "Galar Isla de la Armadura"
+      },
+      {
+        "number": "172",
+        "name": "Paldea Arándano"
+      }
+    ],
+    "types": ["agua"],
+    "category": "Armazón",
+    "height": "Más de 25",
+    "weight": "???",
+    "figure": 6,
+    "color": "Azul",
+    "abilities": {
+      "first": {
+        "name": "Torrente",
+        "info": "Potencia sus movimientos de tipo agua cuando le quedan pocos PS."
+      },
+      "second": null,
+      "hidden": {
+        "name": "Cura lluvia",
+        "info": "Recupera PS de forma gradual cuando llueve."
+      }
+    },
+    "evs": "3 Def. esp.",
+    "catch_rate": 45,
+    "base_friendship": 50,
+    "base_experience": 239,
+    "max_experience": 1059860,
+    "growth_type": "Parab\u00f3lico",
+    "egg_groups": ["Monstruo", "Agua 1"],
+    "male_percentage": 87.5,
+    "female_percentaje": 12.5,
+    "hatching_cycles": 20,
+    "hatching_steps": 2560,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "spAtk": 100,
+      "spDef": 100,
+      "speed": 80
+    },
+    "damage_received": {
+      "x4": [],
+      "x2":["el\u00e9ctrico","planta"],
+      "x1":["bicho","drag\u00f3n","fantasma","hada","lucha", "normal","ps\u00edquico", "roca","siniestro","tierra","veneno", "volador"],
+      "x05":["acero","agua","fuego", "hielo"],
+      "x025":[],
+      "x0": []
+    },
+    "evolution": [
+      [
+        {
+          "id": "Squirtle",
+          "national_number":"0007",
+          "name": "Squirtle",
+          "sprite": "./img/sprites/0007_00_0000.png",
+          "types":  ["agua"],
+          "method": null,
+          "rowspan": 1
+        },
+        {
+          "id": "Wartortle",
+          "national_number":"0008",
+          "name": "Wartortle",
+          "sprite": "./img/sprites/0008_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 16"
+          },
+          "rowspan": 1
+        },
+        {
+          "id": "Blastoise",
+          "national_number":"0009",
+          "name": "Blastoise",
+          "sprite": "./img/sprites/0009_00_0000.png",
+          "types":  ["agua"],
+          "method": {
+            "img": "./img/others/caramelo_raro.png",
+            "info": "Nivel 36"
+          },
+          "rowspan": 1
+        }
+      ]
+    ],
+    "forms": [
+      {
+        "id": "Blastoise",
+        "name": "Blastoise",
+        "sprite": "./img/sprites/0009_00_0000.png",
+        "types": ["agua"],
+        "method": null
+      },
+      {
+        "id": "Mega-Blastoise",
+        "name": "Mega Blastoise",
+        "sprite": "./img/sprites/0009_01_0000.png",
+        "types": ["agua"],
+        "method": {
+          "img": "./img/others/blastoisita.png",
+          "info": "Megaevolución Blastoisita"
+        }
+      },
+      {
+        "id": "Blastoise-Gigamax",
+        "name": "Blastoise Gigamax",
+        "sprite": "./img/sprites/0009_02_0000.png",
+        "types": ["agua"],
+        "method": {
+          "img": "./img/others/gigamax.png",
+          "info": "Factor Gigamax"
+        }
+      }
+    ],
+    "sex_difference": {
+      "has_gender": true,
+      "male_sprite": ["./img/sprites/0009_02_0000.png"],
+      "female_sprite": ["./img/sprites/0009_02_0000.png"],
+      "info": "No hay ninguna diferencia apreciable."
+    }
+  }
+]
