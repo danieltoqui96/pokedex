@@ -24,12 +24,6 @@ body {
   );
   background-size: 180% 180%;
   animation: gradient 6s ease infinite reverse;
-
-  @media (width <= 600px) {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
 }
 
 @keyframes gradient {
@@ -249,6 +243,7 @@ body {
     cursor: pointer;
     transition: 0.1s;
     overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 
     & img {
       height: 100%;
@@ -391,6 +386,7 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 
     & img {
       vertical-align: middle;

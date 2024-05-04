@@ -8,7 +8,7 @@ async function init() {
   data = await response.json();
 
   displayPokemonList("");
-  displayPokemonDetails(data[11].id);
+  displayPokemonDetails(data[0].id);
 
   const $input = document.querySelector("#pokemon-search-input");
   $input.addEventListener("input", function () {
