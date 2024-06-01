@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
-  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
 }
@@ -11,7 +10,6 @@ body {
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   font-size: 10px;
-  min-height: 100vh;
   display: grid;
   place-items: center;
   width: 100vw;
@@ -77,7 +75,7 @@ body {
   gap: 8px;
   display: grid;
   grid-template-rows: 40px 1fr;
-
+  
   @media (width <= 960px) {
     border: none;
     border-radius: 0;
@@ -88,6 +86,7 @@ body {
     height: 71px;
   }
 }
+
 
 .search-container {
   background-color: hsla(180deg 80% 5% / 40%);
